@@ -1,0 +1,42 @@
+body {
+  margin: 2% 5%;
+}
+
+.jumbotron {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+  color: #337ab7;
+  background: lightgray;
+}
+
+h1,
+p {
+  text-shadow: 0 0 20px snow;
+}
+
+td {
+  border-right: 2px solid snow;
+  border-bottom: 2px solid snow;
+  border-top: 0;
+}
+
+th {
+  text-align: center;
+  border-bottom: 2px solid snow !important;
+  border-right: 2px solid snow !important;
+}
+
+th:last-child,
+td:last-child {
+  border-right: none !important;
+}
+
+.panel,
+.jumbotron {
+  border: 5px solid lightgray !important;
+  border-radius: 10px;
+}
+
+td {
+  text-align: center;
+}
